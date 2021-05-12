@@ -1,0 +1,134 @@
+$btn : #FF9900;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 1300px;
+}
+.navbar {
+    .container {
+        .nav {
+            li {
+                padding-right: 5px;
+                .button{
+                    .btn1{
+                        background-color: white;
+                        border-style: ridge;
+                        border-color: rgb(231, 231, 231);
+                    }
+                }
+                a {
+                    color: black !important;
+                }
+                a:hover{
+                    font-weight: bold;
+                }
+            }
+
+        }
+    }
+}
+.Hero{
+    .container{
+        .hero{
+            margin-top: 50px;
+            .row{
+                .left{
+                    padding-top: 100px;
+                    h1{
+                        font-size: 50px;
+                        font-weight: bold;
+                        
+                    }
+                    p{
+                        font-size: 18px;
+                        line-height: 28px;
+                    }
+                    .next{
+                        display: flex;
+                        padding: 10px;
+                        .btn{
+                            padding: 8px 10px;
+                            background: $btn;
+                            box-sizing: border-box;
+                            a{
+                                color: white;
+                                text-decoration: none;
+                                }
+                            }
+                        .video{
+                            padding-top: 8px;
+                            margin-left: 10px;
+                            .fas{
+                                color: $btn;
+                            }
+                            a{
+                                text-decoration: none;
+                                color: $btn;
+                                }
+                            }
+                        }
+                    
+                    }   
+                .right{
+                    padding-right: 50px;
+                }
+            }
+        }
+    }
+}
+
+.featuers{
+    margin-top: 80px;
+    .title{
+        margin: 10px auto;
+        width: 500px;
+        h1{
+            font-weight: 700;
+            font-style: normal;
+        }
+    }
+    .bg{
+        background: linear-gradient(white, #FFE5D2);
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;    
+    .container{
+        padding-left: 50px;
+        position: relative;
+        .row{
+            .fitur{
+                margin-top: 50px;
+                .circle{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    margin-bottom: 20px;
+                }
+                h3{
+                    font-weight: 600;
+                    font-size: 22px;
+                }
+                p{
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: #544837;
+                }
+            }
+        }
+        .btn{
+            // margin: 10px auto;
+            margin-top: 50px;
+            margin-bottom: 80px;
+            position: relative;
+            left: 45%;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            background: $btn;
+        }
+    }
+}
+}

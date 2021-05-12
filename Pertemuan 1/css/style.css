@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 1300px;
+}
+
+.navbar .container .nav li {
+  padding-right: 5px;
+}
+
+.navbar .container .nav li .button .btn1 {
+  background-color: white;
+  border-style: ridge;
+  border-color: #e7e7e7;
+}
+
+.navbar .container .nav li a {
+  color: black !important;
+}
+
+.navbar .container .nav li a:hover {
+  font-weight: bold;
+}
+
+.Hero .container .hero {
+  margin-top: 50px;
+}
+
+.Hero .container .hero .row .left {
+  padding-top: 100px;
+}
+
+.Hero .container .hero .row .left h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.Hero .container .hero .row .left p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.Hero .container .hero .row .left .next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+}
+
+.Hero .container .hero .row .left .next .btn {
+  padding: 8px 10px;
+  background: #FF9900;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Hero .container .hero .row .left .next .btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.Hero .container .hero .row .left .next .video {
+  padding-top: 8px;
+  margin-left: 10px;
+}
+
+.Hero .container .hero .row .left .next .video .fas {
+  color: #FF9900;
+}
+
+.Hero .container .hero .row .left .next .video a {
+  text-decoration: none;
+  color: #FF9900;
+}
+
+.Hero .container .hero .row .right {
+  padding-right: 50px;
+}
+
+.featuers {
+  margin-top: 80px;
+}
+
+.featuers .title {
+  margin: 10px auto;
+  width: 500px;
+}
+
+.featuers .title h1 {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.featuers .bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#FFE5D2));
+  background: linear-gradient(white, #FFE5D2);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.featuers .bg .container {
+  padding-left: 50px;
+  position: relative;
+}
+
+.featuers .bg .container .row .fitur {
+  margin-top: 50px;
+}
+
+.featuers .bg .container .row .fitur .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.featuers .bg .container .row .fitur h3 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.featuers .bg .container .row .fitur p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #544837;
+}
+
+.featuers .bg .container .btn {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  position: relative;
+  left: 45%;
+  background: #FF9900;
+}
+
+.featuers .bg .container .btn a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
